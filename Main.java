@@ -28,7 +28,7 @@ public class Main {
         if (coupon ) {
             price = (price - 2);
         }
-        if (age <= 12){
+        if (age <= 12 || age >= 65){
             price = (price - 3);
         }
         
