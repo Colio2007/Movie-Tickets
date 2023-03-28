@@ -32,6 +32,6 @@ public class Main {
             price = (price - 3);
         }
         
-        System.out.print("Your ticket cost is $" + formatter.format(price) + ".");
+        System.out.print("Your ticket cost $" + formatter.format(price) + ".");
     } 
 }
