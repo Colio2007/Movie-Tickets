@@ -32,6 +32,6 @@ public class Main {
             price = (price - 3);
         }
         
-        System.out.print("your price is " + formatter.format(price) + "$.");
+        System.out.print("your price is $" + formatter.format(price) + ".");
     } 
 }
